@@ -1,3 +1,5 @@
+body { margin: 0}
+
 #header1 {padding: : 0; }
 
 h1 { margin-top: 10%;
@@ -17,7 +19,6 @@ padding: 0;}
 	position: absolute;
 top: 13px; right: 3%;
 font-family: 'Yanone Kaffeesatz', sans-serif;
-;
 }
 
 a {text-decoration: none;
@@ -66,22 +67,23 @@ font-weight: 700;
 
 #secondparagarph a {text-decoration: underline; color:#18C3F2; font-size: 90%; font-weight: 600;}
 
+#headerthree { border-top: 33px; border}
+
 h3 { font-family: 'Yanone Kaffeesatz', sans-serif; 
 font-size: 200%; 
 padding-top: 10px; 
 padding-bottom: 10px; 
 padding-left: 10px;
 color:#18C3F2;
-border-left: 3px solid gray;}
+border-left: 2px solid gray; height: 60%; padding: 4px;
+padding-left: 12px;}
 
 #thirdparpagraph a {text-decoration: underline; color:#18C3F2; font-size: 90%; font-weight: 600;}
 #thirdparpagraph a:hover {color: blue;}
 
 #navigation { padding-left: 2px; }
 
-#whiteandsecoundconatiner { outline-style: solid;
-	width: 100%;
-}
+#whiteandsecoundconatiner { width: 100%;}
 
  #whiteareacontainer { width: 30%; padding-left: 135px; margin-bottom: 2px;}
 
@@ -129,16 +131,24 @@ font-weight: 700;
  margin-bottom: 10px;
  margin-top: 2px; }
 
-#finalcontainer {margin-left: 10%;}
+#finalcontainer { margin: 0; width: 100%; padding: 0}
 #finalcontainer img:hover {color: blue;}
+
+#finalcontainer .hoverimage {width: 100%; }
+
+.hoverimage { display:inline; margin-left: 2%;}
+.hoverimage img { width: 24%; padding: 0;}
+
 aside { width: 50%;
  margin-top: -30px}
 
- footer { outline-style: solid; background-color: #083452;}
+ footer { width: 100%; background-color: #083452;}
 
 
  #twocolumnfooter #navigation { margin-left: 60%; margin-top: -52px; float: left; 
  	}
+
+#twocolumnfooter p { margin-top: 0; margin-bottom: 0;}
 
 #navigation a {font-family: 'Open Sans', sans-serif; font-weight: 400; color: #a3b3bf; font-size: 90%; }
  
